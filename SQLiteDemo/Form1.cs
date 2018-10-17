@@ -16,5 +16,20 @@ namespace SQLiteDemo
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string message = "";
+            //bool b = DBHelperSQLite.CreateDataBase("SQLiteDemo.db", ref message);
+            //MessageBox.Show(message);
+            //if (!b)
+            //    return;
+            //b = DBHelperSQLite.CreateDataTable("SQLiteDemo.db", "tb_Demo", "name, score", ref message);
+            //MessageBox.Show(message);
+            //if (!b)
+            //    return;
+            
+
+        }
     }
 }
